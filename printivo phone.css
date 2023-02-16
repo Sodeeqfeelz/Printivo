@@ -1,0 +1,331 @@
+@media screen and (max-width: 475px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    img {
+        max-width: 100%;
+    }
+    /* styling for d div1 */
+    .div1 {
+        display: flex;
+        height: 9vh;
+        background-color: rgb(247, 246, 244);
+        align-items: center;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    a{
+        text-decoration: none;
+    }
+    .corporate {
+        display: none;
+    }
+    .num {
+        margin-left: 20px;
+    }
+    #num {
+           color: #1DA6F2;
+           font-weight: bold;
+           font-size: 12px;
+    }
+    #call {
+        display: none;
+    }
+    .what {
+        margin-left: 70px;
+    }
+    .niger {
+        border: 1px solid #DCDBD9;
+        margin-left: 60px;
+        padding: 10px 12px 10px 12px;
+        border-radius: 50px;
+        color: #5A6683;
+    }
+    #imgNig {
+        position: relative;
+        top: 4px;
+    }
+    span {
+        font-size: 10px;
+    }
+    /* styling for d div2 */
+.div2 {
+    border: 1px solid rgb(236, 232, 217);
+    height: 64vh;
+    background-color: rgb(236, 232, 217);
+}
+/* nav {
+    position: sticky;
+} */
+.printivoFlex {
+    display: flex;
+    margin-top: 10px;
+    height: 10vh;
+    align-items: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#imgPrintivo {
+    margin-left: 20px;
+    width: 80%;
+}
+.nav1{
+    display: none;
+}
+.nav2{
+    margin-left: 180px;
+    position: relative;
+    top: -5px;
+}
+#bnav2 {
+    border: 0px;
+    background-color: rgb(236, 232, 217);
+    color: #DC9B8F;
+    font-weight: 600;
+}
+#bnav2:hover {
+    cursor: pointer;
+}
+#anav2 {
+    display: none;
+}
+#imgbic {
+    position: relative;
+    top: 10px;
+    margin-left: 35px;
+}
+.hidden {
+    background-color: white;
+    width: 15vw;
+    height: 6vh;
+    padding-top: 15px;
+    margin-left: 20px;
+    display: block;
+    position: relative;
+    top: 20px;
+}
+#hand {
+    display: none;
+}
+.quality {
+    position: relative;
+    top: 70px;
+    left: 20px;
+    max-width: 90vw;
+}
+#quality {
+    max-width: 50%;
+}
+#shipped {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 37px;
+}
+#label {
+    font-size: 14.3px;
+    font-weight: 600;
+    color: #384A62;
+}
+#input {
+    border: 0px solid;
+    width: 90vw;
+    height: 11vh;
+    margin-top: 7px;
+}
+::placeholder {
+    color: #B5BEC6;
+    font-size: 17px;
+}
+#search {
+    position: relative;
+    top: -50px;
+    left: 390px;
+    max-width: 10vw;
+}
+/* styling of div product */
+.product {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    left: 6.8vw;
+}
+#h31 {
+    font-size: 22px;
+}
+#aProduct {
+    font-size: 14px;
+    position: relative;
+    top: 7px;
+    left: 150px;
+}
+/* styling for d div3 */
+.div3 {
+    display: grid;
+    position: relative;
+    left: 5vw;
+    height: 770vh;
+    width: 85.4vw;
+    grid-template-columns: 1fr;
+    gap: 26px;
+}
+.grid-item {
+    width: 90vw;
+    height: 60vh;
+}
+#img1 {
+    width: 90vw;
+}
+/* styling of div product */
+.product2 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    left: 6.8vw;
+}
+#h312 {
+    font-size: 22px;
+}
+#aProduct2 {
+    font-size: 14px;
+    position: relative;
+    top: 7px;
+    left: 120px;
+}
+/* styling of div4 */
+.div4 {
+    flex-direction: column;
+    height: 130vh;
+    width: 85.4vw;
+    position: relative;
+    left: 5vw;
+}
+.flex-item {
+    width: 90vw;
+    height: 60vh;
+}
+/* styling of div5 */
+.div5 {
+    height: 50vh;
+    padding: 65px 0px 0px 20px;
+}
+#crown {
+    font-size: 30px;
+}
+#crown2 {
+    font-size: 14px;
+}
+#imgGroup {
+    max-width: 95%;
+}
+/* styling of div6 */
+.div6 {
+    height: 100vh;
+}
+.inner {
+    margin: 50px 0px 0px 20px;
+}
+#inner1 {
+    font-size: 31px;
+}
+#inner2 {
+    flex-direction: column;
+}
+.child {
+    height: 22vh;
+    width: 90vw;
+    font-size: 14px;
+}
+#twit {
+    width: 65vw;
+}
+/* styling of div7 */
+.div7 {
+    height: 123vh;
+}
+.you {
+    font-size: 25px;
+    margin-left: 20px;
+}
+.count {
+    flex-direction: column;
+    font-size: 14px;
+    margin: 13px 0px 0px 20px;
+    gap: 50px;
+}
+#count {
+    width: 50vw;
+    height: 25vh;
+    flex-direction: column;
+}
+#one {
+    width: 25vw;
+    height: 25vh;
+}
+/* styling of div8 */
+.div8 {
+    border: 1px solid #F7F6F4;
+    background-color: #F7F6F4;
+    height: 65vh;
+}
+.parent {
+    margin: 77px 0px 0px 20px;
+}
+.child1 {
+    font-size: 25px;
+}
+.child2 {
+    flex-direction: column;
+}
+.grand-child {
+    width: 40vw;
+    height: 10vh;
+}
+.grand-child:nth-child(2) {
+    position: relative;
+    top: -115px;
+    left: 240px;
+}
+.grand-child:nth-child(3) {
+    position: relative;
+    top: -130px;
+}
+.grand-child:nth-child(4) {
+    position: relative;
+    top: -245px;
+    left: 240px;
+}
+.grand-child:nth-child(5) {
+    position: relative;
+    top: -260px;
+}
+/* styling of div9 */
+.div9 {
+    height: 120vh;
+}
+.all {
+    flex-direction: column;
+    margin: 59px 0px 0px 20px;
+    gap: 25px;
+}
+.divWord {
+    width: 50vw;
+}
+#divWord1 {
+    margin-top: 20px;
+}
+h4 {
+    margin-bottom: 10px;
+}
+#logo {
+    max-width: 100%;
+}
+/* styling of div10 */
+.div10 {
+    height: 12vh;
+}
+.last {
+    font-size: 16px;
+}
+}
